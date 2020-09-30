@@ -1,646 +1,584 @@
 # 单词
-## h5c3
 
-### h5c3 day01
+## 类名单词	
 
-| 英文                | 中文介绍                                                     | 音标                          |
-| ------------------- | ------------------------------------------------------------ | ----------------------------- |
-| C3 常用属性         |                                                              |                               |
-| duration            | n. 持续，持续的时间，期间                                    | 英[djuˈreɪʃn]美[duˈreɪʃn]     |
-| transition-duration | 过渡时间                                                     |                               |
-| transition-delay    | 过渡延时                                                     |                               |
-| scale               | n. 规模; 比例（尺）; 鱼鳞; 级别;测量                         | 英[skeɪl]美[skel]             |
-| skew                | vt. 歪曲; 曲解; 使歪斜;                                      | 英[skju:]美[skju]             |
-| matrix              | n. [数] 矩阵；模型；[生物][地质] 基质；母体；子宫；[地质] 脉石 | 英[ˈmeɪtrɪks]美[ˈmetrɪks]     |
-| perspective         | n. 观点；远景；透视图;透视的                                 | 英[pəˈspektɪv]美[pərˈspektɪv] |
-| backface            | n. 背面;                                                     |                               |
-| infinite            | adj. 无限的，无穷的；无数的；极大的                          | 英[ˈɪnfɪnət]美[ˈɪnfənɪt]      |
-| 熟悉部分            |                                                              |                               |
-| degree              | n. 程度; 学位; [乐] 音阶，度; [数] 度，度数;                 | 英[dɪˈgri:]美[dɪˈɡri]         |
-| property            | n. 特性，属性; 财产，地产; [戏] 道具; 所有权;                | 英[ˈprɒpəti]美[ˈprɑ:pərti]    |
-| flat                | n. 平面; 公寓; 平地; adj平坦的；扁平的；浅的                 | 英[flæt]美[flæt]              |
+| 序号 | ClassName              | 含义                                     |
+| ---- | ---------------------- | ---------------------------------------- |
+| 1    | about                  | 关于                                     |
+| 2    | account                | 账户                                     |
+| 3    | arrow                  | 箭头图标                                 |
+| 4    | article                | 文章                                     |
+| 5    | aside                  | 边栏                                     |
+| 6    | audio                  | 音频                                     |
+| 7    | avatar                 | 头像                                     |
+| 8    | bg,background          | 背景                                     |
+| 9    | bar                    | 栏（工具类）                             |
+| 10   | branding               | 品牌化                                   |
+| 11   | crumb,breadcrumbs      | 面包屑                                   |
+| 12   | btn,button             | 按钮                                     |
+| 13   | caption                | 标题，说明                               |
+| 14   | category               | 分类                                     |
+| 15   | chart                  | 图表                                     |
+| 16   | clearfix               | 清除浮动                                 |
+| 17   | close                  | 关闭                                     |
+| 18   | col,column             | 列                                       |
+| 19   | comment                | 评论                                     |
+| 20   | community              | 社区                                     |
+| 21   | container              | 容器                                     |
+| 22   | content                | 内容                                     |
+| 23   | copyright              | 版权                                     |
+| 24   | current                | 当前态，选中态                           |
+| 25   | default                | 默认                                     |
+| 26   | description            | 描述                                     |
+| 27   | details                | 细节                                     |
+| 28   | disabled               | 不可用                                   |
+| 29   | entry                  | 文章，博文                               |
+| 30   | error                  | 错误                                     |
+| 31   | even                   | 偶数，常用于多行列表或表格中             |
+| 32   | fail                   | 失败（提示）                             |
+| 33   | feature                | 专题                                     |
+| 34   | fewer                  | 收起                                     |
+| 35   | field                  | 用于表单的输入区域                       |
+| 36   | figure                 | 图                                       |
+| 37   | filter                 | 筛选                                     |
+| 38   | first                  | 第一个，常用于列表中                     |
+| 39   | footer                 | 页脚                                     |
+| 40   | forum                  | 论坛                                     |
+| 41   | gallery                | 画廊                                     |
+| 42   | group                  | 模块，清除浮动                           |
+| 43   | header                 | 页头                                     |
+| 44   | help                   | 帮助                                     |
+| 45   | hide                   | 隐藏                                     |
+| 46   | hightlight             | 高亮                                     |
+| 47   | home                   | 主页                                     |
+| 48   | icon                   | 图标                                     |
+| 49   | info,information       | 信息                                     |
+| 50   | last                   | 最后一个，常用于列表中                   |
+| 51   | links                  | 链接                                     |
+| 52   | login                  | 登录                                     |
+| 53   | logout                 | 退出                                     |
+| 54   | logo                   | 标志                                     |
+| 55   | main                   | 主体                                     |
+| 56   | menu                   | 菜单                                     |
+| 57   | meta                   | 作者、更新时间等信息栏，一般位于标题之下 |
+| 58   | module                 | 模块                                     |
+| 59   | more                   | 更多（展开）                             |
+| 60   | msg,message            | 消息                                     |
+| 61   | nav,navigation         | 导航                                     |
+| 62   | next                   | 下一页                                   |
+| 63   | nub                    | 小块                                     |
+| 64   | odd                    | 奇数，常用于多行列表或表格中             |
+| 65   | off                    | 鼠标离开                                 |
+| 66   | on                     | 鼠标移过                                 |
+| 67   | output                 | 输出                                     |
+| 68   | pagination             | 分页                                     |
+| 69   | pop,popup              | 弹窗                                     |
+| 70   | preview                | 预览                                     |
+| 71   | previous               | 上一页                                   |
+| 72   | primary                | 主要                                     |
+| 73   | progress               | 进度条                                   |
+| 74   | promotion              | 促销                                     |
+| 75   | rcommd,recommendations | 推荐                                     |
+| 76   | reg,register           | 注册                                     |
+| 77   | save                   | 保存                                     |
+| 78   | search                 | 搜索                                     |
+| 79   | secondary              | 次要                                     |
+| 80   | section                | 区块                                     |
+| 81   | selected               | 已选                                     |
+| 82   | share                  | 分享                                     |
+| 83   | show                   | 显示                                     |
+| 84   | sidebar                | 边栏，侧栏                               |
+| 85   | slide                  | 幻灯片，图片切换                         |
+| 86   | sort                   | 排序                                     |
+| 87   | sub                    | 次级的，子级的                           |
+| 88   | submit                 | 提交                                     |
+| 89   | subscribe              | 订阅                                     |
+| 90   | subtitle               | 副标题                                   |
+| 91   | success                | 成功（提示）                             |
+| 92   | summary                | 摘要                                     |
+| 93   | tab                    | 标签页                                   |
+| 94   | table                  | 表格                                     |
+| 95   | txt,text               | 文本                                     |
+| 96   | thumbnail              | 缩略图                                   |
+| 97   | time                   | 时间                                     |
+| 98   | tips                   | 提示                                     |
+| 99   | title                  | 标题                                     |
+| 100  | video                  | 视频                                     |
+| 101  | wrap                   | 容器，包，一般用于最外层                 |
+| 102  | wrapper                | 容器，包，一般用于最外层                 |
 
-### h5c3 day02
+## H5新增特性
 
-| 英文                | 中文介绍                                                     | 音标                         |
-| ------------------- | ------------------------------------------------------------ | ---------------------------- |
-| C3 常用属性         |                                                              |                              |
-| gradient            | n. [物] 梯度，陡度; （温度、气压等） 变化率，梯度变化曲线;   | 英[ˈgreɪdiənt]美[ˈɡrediənt]  |
-| linear-gradient     | 线性渐变，线性渐变填充                                       |                              |
-| radial              | adj. 径向的; 半径的；辐射状的; 放射式的; 星形的;             | 英[ˈreɪdiəl]美[ˈrediəl]      |
-| radial-gradient     | 径向渐变                                                     |                              |
-| shadow              | n. 阴影; 影子; 鬼，幽灵; 隐蔽处;                             | 英[ˈʃædəʊ]美[ˈʃædoʊ]         |
-| cover               | background-size的cover特定值会保持图像本身的宽高比例，将图片缩放到正好完全覆盖定义背景的区域。 |                              |
-| origin              | n. 起源；原点；出身；开端                                    | 英[ˈɒrɪdʒɪn]美[ˈɔ:rɪdʒɪn]    |
-| clip                | vt. 剪; 剪掉;                                                | 英[klɪp]美[klɪp]             |
-| transition-property | 过渡属性                                                     |                              |
-| 熟悉部分            |                                                              |                              |
-| regular             | adj.有规律的; 规则，整齐的; 不变的; 合格的;                  | 英 ['regjʊlə]  美 ['rɛgjəlɚ] |
-| expression          | n. 表现，表示，表达; 表情，脸色，态度，腔调，声调; [数] 式，符号; 词句，语句，措辞，说法; | 英[ɪkˈspreʃn]美[ɪkˈsprɛʃən]  |
-| space               | n. 空间，太空; 空白，间隔; 空隙; 片刻;                       | 英[speɪs]美[spes]            |
-| mobile              | n. 手机; 风铃;可移动的                                       | 英[ˈməʊbaɪl]美[ˈmoʊbl]       |
-| round               | prep. 大约; 绕过，环绕; （表示位置） 在…四周; 附近;周围      | 英[raʊnd]美[raʊnd]           |
-| leader              | n. 领袖，领导者; 负责人; 指挥者; 领唱者;                     | 英[ˈli:də(r)]美[ˈlidɚ]       |
-| target              | n. 目标; 目的; （服务的） 对象; （射击的） 靶子;             | 英[ˈtɑ:gɪt]美[ˈtɑ:rgɪt]      |
-| compat              | n. 兼容，兼容性                                              | [kəm‚pæt]                    |
+### 语义标签
 
-### h5c3 day03
+| 语义标签  | 属性名称   | 中文释义 |
+| --------- | ---------- | -------- |
+| 语义标签  | header>   | 头部标签 |
+| nav   | 导航标签   |          |
+| article | 内容标签   |          |
+| section | 块级标签   |          |
+| aside>   | 侧边栏标签 |          |
+| footer | 尾部标签   |          |
 
-| 常用属性                   |                      |                           |                 |                     |
-| -------------------------- | -------------------- | ------------------------- | --------------- | ------------------- |
-| 过渡                       | 2D/3D转换            | 动画系列                  | 伸缩布局        | 多列布局            |
-| transition-property        | transform：translate | animation-name            | display:flex    | webkit-column-count |
-| transition-duration        | transform:scale      | animation-duration        | justify-content | webkit-column-width |
-| transition-timing-function | transform:rotate     | animation-iteration-count | flex-direction  | webkit-column-rule  |
-| transition-delay           | transform:skew       | animation-timing-function | align-items     | webkit-column-gap   |
-|                            | transform:origin     | animation-fill-mode       | flex-wrap       | webkit-column-span  |
-|                            | transform -style     | animation-play-state      | align-content   |                     |
-|                            | preserve             | animation-delay           | flex-flow       |                     |
-|                            | perspective          |                           | flex            |                     |
-|                            |                      |                           | align-self      |                     |
-|                            |                      |                           | order           |                     |
+### 多媒体标签
 
-### h5c3 day04
+| 多媒体标签 | 属性名称 | 中文释义     | 描述                                                         |
+| ---------- | -------- | ------------ | ------------------------------------------------------------ |
+| **audio**  | autoplay | 自动播放     | 如果出现该属性，则音频在就绪后马上播放。                     |
+|            | controls | 控制键，按钮 | 如果出现该属性，则向用户显示控件，比如播放按钮。             |
+|            | loop     | 循环         | 如果出现该属性， 则每当音频结束时重新开始播放。              |
+|            | preload  | 预加载       | 如果出现该属性，则音频在页面加载时进行加载，并预备播放。如果使用 "autoplay"，则忽略该属性。 |
+|            | src      | srouce 来源  | 要播放的音频的 URL。统一资源定位符：uniform resource locator |
+| **video**  | autoplay | 自动播放     | 视频就绪自动播放（谷歌浏览器需要添加muted来解决自动播放问题） |
+|            | controls | 控制键，按钮 | 向用户显示播放控件                                           |
+|            | loop     | 循环         | 播放完是否继续播放该视频，循环播放                           |
+|            | preload  | 预加载       | 规定是否预加载视频(如果有了autoplay 就忽略该属性）           |
+|            | src      | srouce 来源  | 视频url地址                                                  |
+|            | muted    | 静音         | 静音播放                                                     |
 
-| 英文           | 中文介绍                                | 音标                                    |
-| -------------- | --------------------------------------- | --------------------------------------- |
-| shortcut       | 英 ['ʃɔːtkʌt]   美 ['ʃɔrt,kʌt]          | n. 捷径；被切短的东西                   |
-| dropdown       |                                         | 下拉菜单                                |
-| spacer         | 英 [speɪsə(r)]   美 [spesər]            | n. 垫片；[遗] 间隔区；逆电流器          |
-| top-banner     |                                         |                                         |
-| parent         | 英 ['peər(ə)nt]   美 ['pɛrənt]          | n. 父亲（或母亲）；父母亲；根源         |
-| categories     | 英 ['kætɪg(ə)rɪz]  美 ['kætəɡɔrɪz]      | n. 类别（category的复数）；分类         |
-| cate-item      |                                         | 类别项                                  |
-| navitems       |                                         | 导航项                                  |
-| treasure       | 英 ['treʒə]   美 ['trɛʒɚ]               | n. 财富，财产；财宝；珍品               |
-| slider         | 英 ['slaɪdə]   美 ['slaɪdɚ]             | n. 滑动器；滑雪者；会滚动之物           |
-| circle         | 英 ['sɜːk(ə)l]   美 ['sɝkl]             | n. 循环，周期；圆；圈子；圆形物         |
-| arrow          | 英 ['ærəʊ]   美 ['æro]                  | n. 箭，箭头；箭状物；箭头记号           |
-| main-extra     |                                         |                                         |
-| lifeserv       |                                         |                                         |
-| right-pic      |                                         |                                         |
-| today          |                                         |                                         |
-| service        |                                         |                                         |
-| bottom         |                                         |                                         |
-| slogan         | 英 ['sləʊg(ə)n]   美 ['slogən]          | n. 标语；呐喊声                         |
-| info           | 英 ['ɪnfəʊ]   美 ['ɪnfo]                | n. 信息；情报                           |
-| last           | 英 [lɑːst]   美 [læst]                  | n. 末尾，最后；上个；鞋楦（做鞋的模型） |
-| coverage       | 英 ['kʌv(ə)rɪdʒ]   美 ['kʌvərɪdʒ]       | n. 覆盖，覆盖范围                       |
-| links          | 英 [lɪŋks]   美 [lɪŋks]                 | n. 链接（link的复数）；沙地；沙丘       |
-| copyright      | 英 ['kɒpɪraɪt]   美 ['kɑpɪraɪt]         | n. 版权，著作权                         |
-| authentication | 英 [ɔː,θentɪ'keɪʃən] 美 [ɔ,θɛntɪ'keʃən] | n. 证明；鉴定；证实                     |
-| close          | 英 [kləʊs]   美 [kloz]                  | vt. 关；结束；使靠近                    |
-| hotwords       |                                         | 热词                                    |
-| keywords       | ['ki:,wə:ds]                            | n. 关键词；关键字                       |
-## 移动web
-### 移动web day01
-| 单词                              | 音标                    | 翻译/作用            |
-| --------------------------------- | ----------------------- | -------------------- |
-| device                            | [dɪ'vaɪs]               | 设备                 |
-| independent                       | [,ɪndɪ'pendənt]         | 独立的               |
-| pixel                             | [ˈpɪksl]                | 像素                 |
-| ratio                             | [ˈreɪʃiəʊ]              | 比例                 |
-| inch                              | [ɪntʃ]                  | 英寸                 |
-| Pixel Per Inch (PPI)              |                         | 像素密度             |
-| Dots Per Inch (DPI)               |                         | 像素密度             |
-| Device independent Pixel (DIP/DP) |                         | 设备独立像素         |
-| Retina                            | ['retɪnə]               | 视网膜屏幕           |
-| window.devicePixelRatio           |                         | 获取设备像素比例     |
-| viewport                          | ['vju:pɔ:t]             | 视口                 |
-| visual viewport                   | [ˈvɪʒuəl]               | 可视化视口           |
-| layout viewport                   | [ˈleɪaʊt]               | 布局视口             |
-| ideal viewport                    | [aɪ'dɪəl; aɪ'diːəl]     | 理想视口             |
-| device-width                      |                         | 设备宽度（屏幕宽度） |
-| device-height                     |                         | 设备高度(屏幕高度）  |
-| initial-scale                     | [ɪ'nɪʃəl]               | 初始缩放值           |
-| maximum-scale                     |                         | 最大缩放值           |
-| minimum-scale                     |                         | 最小缩放值           |
-| user-scalable                     | [ˈju:zə(r)] ['skeɪləbl] | 用户能否缩放         |
-### 移动web day02
-| 单词        | 音标                              | 翻译/作用                        |
-| ----------- | --------------------------------- | -------------------------------- |
-| sprite      | 英[spraɪt]美[spraɪt]              | n. 鬼怪，小妖精，调皮鬼;         |
-| aspect      | 英[ˈæspekt]美[ˈæspɛkt]            | n. 方面; 面貌; 方位，方向; 形势; |
-| media       | 英[ˈmi:diə]美[ˈmidiə]             | n. 媒体; 介质;                   |
-| orientation | 英[ˌɔ:riənˈteɪʃn]美[ˌɔriɛnˈteʃən] | n. 方向，定位，取向，排列方向;   |
-| portrait    | 英[ˈpɔ:treɪt]美[ˈpɔ:rtrɪt]        | n. 肖像，肖像画;                 |
-| landscape   | 英[ˈlæn(d)skeɪp]美[ˈlændˈskep]    | n. 风景; 风景画;                 |
-| theme       | 英 [θiːm] 美 [θim]                | n. 主题；主旋律；题目            |
-| panel       | 英 ['pæn(ə)l] 美 ['pænl]          | n. 仪表板；嵌板；                |
-### 移动web day03
+### 表单属性
 
-| 单词                 | 音标                           | 翻译/作用                        |
-| -------------------- | ------------------------------ | -------------------------------- |
-| LESS                 | [les]                          | css三种预处理器                  |
-| SASS                 | [sæs]                          |                                  |
-| Stylus               | ['staɪləs]                     |                                  |
-| Node Package Manager | ['pækɪdʒ]['mænɪdʒə]            | node安装包管理                   |
-| plugin               | [plʌgɪn]                       | 插件；相关插件                   |
-| Touchstart           | [tʌtʃ]                         | 开始触屏                         |
-| Touchmove            |                                | 触屏移动                         |
-| Touchend             |                                | 离开屏幕                         |
-| tap                  | [tæp]                          | 轻敲；轻打；装上嘴子             |
-| Double tap           | ['dʌb(ə)l]                     | 双击                             |
-| drag                 | [dræg]                         | 拖拽                             |
-| flick                | [flɪk]                         | 轻弹；忽然摇动；轻轻拂去         |
-| pinch                | [pɪn(t)ʃ]                      | 捏；勒索；使苦恼；掐掉某物，修剪 |
-| spread               | [spred]                        | 传播；伸展                       |
-| press                | [pres]                         | 压；按；逼迫；紧抱               |
-| swipe                | [swaɪp]                        | 猛击；偷窃；刷…卡                |
-| bootstrap            | 英 ['buːtstræp]美 ['bʊt'stræp] | 引导指令,引导程序                |
-| collapse             | [kə'læps]                      | 倒塌；瓦解；暴跌                 |
-| brand                | [brænd]                        | [商]商标，牌子;                  |
-| feature              | ['fitʃɚ]                       | 特写；以…为特色；由…主演         |
-| booking              | ['bʊkɪŋ]                       | 预订；预约；演出契约             |
-| affix                | [ə'fɪks]                       | n. [语] 词缀；附加物             |
+| 表单属性  | 属性值       | 中文释义               | 说明                                                         |
+| --------- | ------------ | ---------------------- | ------------------------------------------------------------ |
+| **input** | required     | 要求                   | 表单拥有该属性表示其内容不能为空，必填                       |
+|           | placeholder* | 占位符                 | 表单的提示信息，存在默认值将不显示                           |
+|           | autofocus    | 自动聚焦               | 自动聚焦属性，页面加载完成自动聚焦到指定表单                 |
+|           | autocomplete | 自动完成               | 默认 打开如 autocomplete=”on “ /关闭 autocomplete =”off” 需要放在表单内同时加上name属性 |
+|           | multiple*    | 多样的，倍数           | 可以多选文件提交                                             |
+|           | **type**     | type="email"           | 限制用户输入必须为Email类型                                  |
+|           |              | type="url"             | 限制用户输入必须为URL类型                                    |
+|           |              | type="date"            | 限制用户输入必须为日期类型                                   |
+|           |              | type="time"            | 限制用户输入必须为时间类型                                   |
+|           |              | type="month"           | 限制用户输入必须为月类型                                     |
+|           |              | type="week"            | 限制用户输入必须为周类型                                     |
+|           |              | type="number"          | 限制用户输入必须为数字类型                                   |
+|           |              | type="tel" （telepho） | 手机号码                                                     |
+|           |              | type="search"          | 搜索框                                                       |
+|           |              | type="color"           | 生成一个颜色选择表单                                         |
 
-### 移动web day04
+## CSS3新特性
 
-| 单词         | 音标                                   | 翻译/作用                                             |
-| ------------ | -------------------------------------- | ----------------------------------------------------- |
-| carousel     | 英[ˌkærəˈsel]美[ˌkærəˈsɛl, -ˈzɛl]      | n. 旋转木马；行李传送带；轮播                         |
-| generic      | [dʒəˈnɛrɪk]                            | 类的，属性的; 一般的; 不受商标保护的; [生]属的，类的; |
-| indicators   | ['ɪndɪkeɪtəz]                          | 指示器（indicator的复数）；指示灯                     |
-| presentation | [,prizɛn'teʃən]                        | n. 展示；描述，陈述；介绍；赠送                       |
-| fieldset     |                                        | 自定义字段；控件组                                    |
-| compatible   | [kəmˈpætəbəl]                          | 兼容的，相容的; 和谐的，协调的                        |
-| panel        | 英 ['pæn(ə)l] 美 ['pænl]               | n. 仪表板；嵌板                                       |
-| pagination   | 英 [,pædʒɪ'neɪʃ(ə)n] 美 [,pædʒɪ'neʃən] | n. 标记页数；页码                                     |
-| profile      | 英[ˈprəʊfaɪl]美[ˈproʊfaɪl]             | n. 侧面，半面; 外形，轮廓                             |
-| presentation | 英[ˌpreznˈteɪʃn]美[ˌpri:zenˈteɪʃn]     | n. 提交; 演出; 陈述，报告; 颁奖仪式;                  |
+### 属性选择器
 
-### 移动web day05
+| 属性选择器     | 简介                                  | 英文单词  | 中文释义 |
+| -------------- | ------------------------------------- | --------- | -------- |
+| E[attr]        | 选择具有att属性的E元素                | attribute | 属性     |
+| E[attr="val"]  | 选择具有att属性且属性值等于val的E元素 | value     | 值       |
+| E[attr^="val"] | 匹配具有att属性、且值以val开头的E元素 |           |          |
+| E[attr$="val"] | 匹配具有att属性、且值以val结尾的E元素 |           |          |
+| E[attr*="val"] | 匹配具有att属性、且值中含有val的E元素 |           |          |
 
-| 单词                              | 音标                                | 翻译/作用                               |
-| --------------------------------- | ----------------------------------- | --------------------------------------- |
-| 内容：container                   | 英 [kən'teɪnə] 美 [kən'tenɚ]        | n. 集装箱；容器                         |
-| 侧栏：sidebar                     | ['saɪdbɑr]                          | n. 附带报导，次要新闻 )；工具条；侧边   |
-| 栏目：column                      | 英 [['kɒləm] 美 ['kɑləm]            | n. 纵队，列；专栏；圆柱，柱形物         |
-| 页面外围控制整体布局宽度：wrapper | 英 ['ræpə] 美 ['ræpɚ]               | n. 包装材料；[包装] 包装纸；            |
-| 广告：banner                      | 英 ['bænə] 美 ['bænɚ]               | n. 旗帜，横幅；标语                     |
-| 页面主体：main                    | 英 [meɪn                            | adj. 热的；辣的；热情的；激动的；紧迫的 |
-| 热点：hot                         | 英 [hɒt] 美 [hɑt]                   |                                         |
-| 新闻：news                        | 英 [njuːz] 美 [nuz]                 | n. 新闻，消息；新闻报导                 |
-| 下载：download                    | 英 [daʊn'ləʊd] 美 [,daʊn'lod]       | vt. [计] 下载                           |
-| 菜单：menu                        | 英 ['menjuː] 美 ['mɛnju]            | n. 菜单                                 |
-| 子菜单：submenu                   | [sʌbmenju:]                         | n. 子菜单                               |
-| 搜索：search                      | 英 [sɜːtʃ] 美 [sɝtʃ]                | vt. 搜索；搜寻；调查；搜查；探求        |
-| 友情链接：friendlink              |                                     |                                         |
-| 页脚：footer                      | 英 ['fʊtə] 美 ['fʊtɚ]               | n. 页脚                                 |
-| 版权：copyright                   |                                     |                                         |
-| 滚动：scroll                      | 英 [skrəʊl] 美 [skrol]              | n. 卷轴，画卷；名册；卷形物             |
-| 标签页：tab                       | 英 [tæb] 美 [tæb]                   | n. 标签；制表；帐单                     |
-| 文章列表：list                    | 英 [lɪst] 美 [lɪst]                 | n. [计] 列表；清单；目录                |
-| 小技巧：tips                      |                                     |                                         |
-| 栏目标题：title                   | 英 ['taɪt(ə)l] 美 ['taɪtl]          | n. 冠军；标题；头衔；权利；字幕         |
-| 加入：joinus                      |                                     |                                         |
-| 指南：guide                       | 英 [gaɪd] 美 [ɡaɪd]                 | n. 指南；向导；入门书                   |
-| 服务：service                     | 英 ['sɜːvɪs] 美 ['sɝvɪs]            | n. 服务，服侍；服役；仪式               |
-| 注册：register                    | 英 ['redʒɪstə] 美 ['rɛdʒɪstɚ]       | vt. 登记；注册；记录                    |
-| 状态：status                      | 英 ['steɪtəs] 美 [ˈstætəs; ˈstetəs] | n. 地位；状态；情形；重要身份           |
-| 投票：vote                        | 英 [vəʊt] 美 [vot]                  | n. 投票，选举；选票；得票数             |
-| 合作伙伴：partner                 | 英 ['pɑːtnə] 美 ['pɑrtnɚ]           | n. 伙伴；合伙人；配偶                   |
-| 主导航：mainnav                   |                                     |                                         |
-| 子导航：subnav                    |                                     |                                         |
-| 顶导航：topnav                    |                                     |                                         |
-| 摘要: summary                     | 英 ['sʌm(ə)rɪ] 美 ['sʌməri]         | n. 概要，摘要，总结                     |
-| 登陆：login                       | login 英 ['lɒɡɪn] 美 [lɑg'ɪn]       | vt. [计] 登录；注册                     |
-| 登录条：loginbar                  |                                     |                                         |
-| 当前的: current                   | 英 ['kʌr(ə)nt] 美 [ˈkɝənt]          | adj. 现在的；流通的，通用的；最近的；   |
-| 图标: icon                        | 英['aɪkɒn; -k(ə)n] 美 ['aɪkɑn]      | n. 图标；偶像；肖像，画像；圣像         |
-| 注释：note                        | 英 [nəʊt] 美 [not]                  | n. 笔记；音符；票据                     |
+### 结构伪类选择器
 
-### 移动web day06
+| 结构伪类选择器   | 简介                        |
+| ---------------- | --------------------------- |
+| E:first-child    | 匹配父元素中的第一个子元素E |
+| E:last-child     | 匹配父元素中最后一个E元素   |
+| E:nth-child(n)   | 匹配父元素中的第n个子元素E  |
+| E:first-of-type  | 指定类型E的第一个           |
+| E:last-of-type   | 指定类型E的最后一个         |
+| E:nth-of-type(n) | 指定类型E的第n个            |
 
-| 单词         | 发音                                   | 中文释义                                              |
-| ------------ | -------------------------------------- | ----------------------------------------------------- |
-| bootstrap    | 英 ['buːtstræp]美 ['bʊt'stræp]         | 引导指令,引导程序                                     |
-| collapse     | [kə'læps]                              | 倒塌；瓦解；暴跌                                      |
-| brand        | [brænd]                                | [商]商标，牌子;                                       |
-| feature      | ['fitʃɚ]                               | 特写；以…为特色；由…主演                              |
-| booking      | ['bʊkɪŋ]                               | 预订；预约；演出契约                                  |
-| affix        | [ə'fɪks]                               | n. [语] 词缀；附加物                                  |
-| carousel     | 英[ˌkærəˈsel]美[ˌkærəˈsɛl, -ˈzɛl]      | n. 旋转木马；行李传送带；轮播                         |
-| generic      | [dʒəˈnɛrɪk]                            | 类的，属性的; 一般的; 不受商标保护的; [生]属的，类的; |
-| indicators   | ['ɪndɪkeɪtəz]                          | 指示器（indicator的复数）；指示灯                     |
-| presentation | [,prizɛn'teʃən]                        | n. 展示；描述，陈述；介绍；赠送                       |
-| fieldset     |                                        | 自定义字段；控件组                                    |
-| compatible   | [kəmˈpætəbəl]                          | 兼容的，相容的; 和谐的，协调的                        |
-| panel        | 英 ['pæn(ə)l] 美 ['pænl]               | n. 仪表板；嵌板                                       |
-| pagination   | 英 [,pædʒɪ'neɪʃ(ə)n] 美 [,pædʒɪ'neʃən] | n. 标记页数；页码                                     |
-| profile      | 英[ˈprəʊfaɪl]美[ˈproʊfaɪl]             | n. 侧面，半面; 外形，轮廓                             |
-| presentation | 英[ˌpreznˈteɪʃn]美[ˌpri:zenˈteɪʃn]     | n. 提交; 演出; 陈述，报告; 颁奖仪式;                  |
-## Js基础
-### Js基础 day01
+### 2D转换（transfrom）
 
-| 英文        | 音标                                 | 中文介绍                                            |
-| ----------- | ------------------------------------ | --------------------------------------------------- |
-| 事件        |                                      |                                                     |
-| onmouseover |                                      | 鼠标移到目标上；鼠标移进时                          |
-| onclick     |                                      | 鼠标单击                                            |
-| onmouseout  |                                      | 鼠标移出时                                          |
-| 运算单词    |                                      |                                                     |
-| plus        | [plʌs]                               | （表示运算）加;加的; 正的; 附加的; 比所示数量多的;  |
-| minus       | [ˈmaɪnəs]                            | （表示运算）减去; 减号; 负号; 不利; 不足;           |
-| multiply    | [ˈmʌltɪplaɪ]                         | 乘; （使）相乘; （使）增加; （使）繁殖;             |
-| quotient    | [ˈkwəʊʃnt]                           | 商，商数，系数                                      |
-| divide(by)  | [dɪˈvaɪd]                            | 分开，除                                            |
-| DOM操作部分 |                                      |                                                     |
-| replace     | 英 [rɪ'pleɪs]                        | vt. 取代，代替；替换，更换；归还，偿还；把…放回原处 |
-| Node        | 英 [nəʊd]                            | n. 节点；瘤；[数] 叉点                              |
-| Element     | 英 ['elɪm(ə)nt]                      | n. 元素；要素；原理；成分；自然环境                 |
-| 熟悉部分    |                                      |                                                     |
-| area        | [ˈeəriə]                             | 地区; 区域，范围; 面积，平地; 领域;                 |
-| perimeter   | [pəˈrɪmɪtə(r)]                       | <数>周长; 周围，边界;                               |
-| meter       | [ˈmi:tə(r)]                          | 米, 公尺#计量器, 仪表; 计量官; 计量监督员           |
-| radius      | [ˈreɪdiəs]                           | 半径（距离）; 用半径度量的圆形面积; 半径范围; 桡骨; |
-| difference  | [ˈdɪfrəns]                           | 差别，差异; [数]差数，差额; 意见分歧; 特色;         |
-| product     | [ˈprɒdʌkt]                           | 产品; 结果; 乘积; 作品;                             |
-| Object      | 英 ['ɒbdʒɪkt; -dʒekt]                | n. 目标；物体；客体；宾语                           |
-| Model       | 英 ['mɒdl]                           | n. 模型；典型；模范；模特儿；样式                   |
-| instance    | 英 ['ɪnst(ə)ns]                      | n. 实例；情况；建议                                 |
-| inner       | 英 [ɪnə]                             | adj. 内部的；内心的；精神的                         |
-| transparent | 英 [træn'spær(ə)nt; trɑːn-; -'speə-] | adj. 透明的；显然的；坦率的；易懂的                 |
+| 2D转换（transfrom） |                            |                                                              |               |              |
+| ------------------- | -------------------------- | ------------------------------------------------------------ | ------------- | ------------ |
+| 名称                | 语法                       | 总结                                                         | 英文单词      | 中文释义     |
+| **移动 translate**  | transform: translate(x,y); | 定义 2D 转换，沿着 X 和 Y 轴移动元素                         | transfrom     | 转换         |
+|                     |                            | translate中的百分比单位是相对于自身元素的 translate:(50%,50%) | translate     | 转化、转变为 |
+|                     |                            | translate类似定位，不会影响到其他元素的位置                  | scale         | 规模、比例   |
+|                     |                            | 对行内标签没有效果                                           | rotate        | 旋转、循环   |
+| **缩放scale**       | transform:scale(x,y);      | transform:scale(1,1) ：宽和高都放大一倍，相对于没有放大      | deg（degree） | 程度、等级   |
+|                     |                            | transform:scale(2,2) ：宽和高都放大了2倍                     | origin        | 起源、原点   |
+|                     |                            | transform:scale(2) ：只写一个参数，第二个参数则和第一个参数一样，相当于 scale(2,2) |               |              |
+|                     |                            | transform:scale(0.5,0.5)：缩小                               |               |              |
+| **旋转 rotate**     | transform:rotate(angle)；  | 角度为正时，顺时针，负时，为逆时针                           |               |              |
+|                     |                            | 默认旋转的中心点是元素的中心点                               |               |              |
+| **设置旋转中心点**  | transform-origin: x y;     | top、bottom、left、right                                     |               |              |
 
-### Js基础 day02
+### 动画
 
-| 英文                   | 中文介绍                                                     | 音标                    |
-| ---------------------- | ------------------------------------------------------------ | ----------------------- |
-| 操作DOM部分            |                                                              |                         |
-| parentNode             | 父节点                                                       |                         |
-| childNodes             | 子节点                                                       |                         |
-| nextSibling            | 下一个兄弟节点                                               |                         |
-| previous               | adj.以前的; 先前的; 过早的; （时间上） 稍前的;               |                         |
-| previousSibling        | 上一个兄弟节点                                               |                         |
-| previousElementSibling | 上一个兄弟元素                                               |                         |
-| nextElementSibling     | 下一个兄弟元素                                               |                         |
-| firstChild             | 第一个子节点                                                 |                         |
-| lastChild              | 最后一个子节点                                               |                         |
-| firstElementChild      | 第一个子元素                                                 |                         |
-| lastElementChild       | 最后个子元素                                                 |                         |
-| innerText              | 底层模板, 内部的纯文本, 元素文本                             | [ɪnə][tekst]            |
-| js 事件部分            |                                                              |                         |
-| onkeyup                | 键抬起时                                                     |                         |
-| onkeydown              | 键按下时                                                     |                         |
-| blur                   | vt. 涂污；使…模糊不清；使暗淡；玷污n. 污迹；模糊不清的事物   | 英 [blɜː] 美 [blɝ]      |
-| onblur                 | 失去焦点                                                     |                         |
-| 数组常用方法           |                                                              |                         |
-| push                   | 推动，增加；对…施加压力，逼迫；按；说服                      | [pʊʃ]                   |
-| filter                 | n. 滤波器；[化工] 过滤器；筛选；滤光器 vt. 过滤；渗透；用过滤法除 | 英 ['fɪltə] 美 ['fɪltɚ] |
-| 了解部分               |                                                              |                         |
-| selected               | 挑选出来的                                                   | [sɪ'lektɪd]             |
-| checked                | 检查;选中的；                                                | [tʃekt]                 |
-| current                | 现在的；流通的，通用的；最近的；草写的                       | ['kʌr(ə)nt]             |
+| 动画                      |                              |                                                              |                                       |
+| ------------------------- | ---------------------------- | ------------------------------------------------------------ | ------------------------------------- |
+| 名称                      | 中文释义                     | 语法                                                         | 值的单词                              |
+| @keyframes                | 关键帧                       | 规定动画。                                                   |                                       |
+| animation                 | 动画                         | 所有动画属性的简写属性，除了animation-play-state属性。       |                                       |
+| animation-name            | 动画名称                     | 规定@keyframes动画的名称。                                   |                                       |
+| animation-duration        | 动画时间,duration:持续       | 规定动画完成一个周期所花费的秒或毫秒，默认是0。              |                                       |
+| animation-timing-function | 动画时间函数，function:功能  | 规定动画的速度曲线，默认是“ease”。                           | ease:缓和  linear：线型               |
+| animation-delay           | delay：延迟                  | 规定动画何时开始，默认是0。                                  |                                       |
+| animation-iteration-count | iteration: 反复  ;count:计算 | 规定动画被播放的次数，默认是1，还有infinite                  | infinite:无限的                       |
+| animation-direction       | direction:方向               | 规定动画是否在下一周期逆向播放，默认是“normal“,alternate逆播放 | alternate:交替                        |
+| animation-play-state      | state:状态，国家             | 规定动画是否正在运行或暂停。默认是"running",还有"pause"。    | pause:暂停                            |
+| animation-fill-mode       | fill: 装满    ;mode:模式     | 规定动画结束后状态，保持forwards回到起始backwards            | forwards: 向前  ;backwards:向后，反向 |
 
-### Js基础 day03
+## 命名规则
 
-| 英文            | 中文介绍                                                     | 音标                           |
-| --------------- | ------------------------------------------------------------ | ------------------------------ |
-| 操作DOM部分     |                                                              |                                |
-| append          | vt.附加; 添加; 贴上; 签（名）                                | 英 [ə'pend] 美 [ə'pɛnd]        |
-| appendChild     | 方法, 添加节点方法                                           | [əˈpend]                       |
-| removeChild     | 去除节点方法                                                 | [rɪˈmu:v]                      |
-| createElement   | 创建元素                                                     | ['elɪm(ə)nt]                   |
-| attribute       | n. 属性；特质                                                | 英 [ə'trɪbjuːt] 美 [ə'trɪbjut] |
-| setAttribute    | 设置属性                                                     |                                |
-| getAttribute    | 获取属性                                                     |                                |
-| removeAttribute | 移除属性                                                     |                                |
-| 常用数组方法    |                                                              |                                |
-| sort            | vt. 将…分类；将…排序；挑选出某物                             | 英 [sɔːt] 美 [sɔrt]            |
-| shift           | 改变; 去掉; 摆脱掉; 换挡;                                    | [ʃɪft]                         |
-| unshift         | 松开打字机或键盘的字型变换键;方法将元素插入到一个数组的开始部分 | [ʌn'ʃɪft]                      |
-| reverse         | 颠倒；倒转                                                   | [rɪ'vɜːs]                      |
-| concat          | 合并多个数组；合并多个字符串                                 | [kɒnkæt]                       |
-| slice           | 切成片; 切下; 划分;                                          | [slaɪs]                        |
-| splice          | 拼接；接合；使结婚                                           | [splaɪs]                       |
-| 熟悉部分        |                                                              |                                |
-| destination     | 目的，目标; 目的地，终点; [罕用语]预定，指定;                | [ˌdestɪˈneɪʃn]                 |
-| data            | 资料，材料; datum的复数; [计算机]数据，资料; 从科学实验中提取的价值; | [ˈdeɪtə]                       |
-| source          | n.根源，本源; 源头，水源; 原因; 提供消息的人;                | 英 [sɔːs] 美 [sɔrs]            |
-| js 方法         |                                                              |                                |
-| trim            | 会从一个字符串的两端删除空白字符。                           | [trɪm]                         |
+| 命名规则 |                   |                          |
+| -------- | ----------------- | ------------------------ |
+| 序号     | 英文              | 中文                     |
+| 1        | header            | 头                       |
+| 2        | content/container | 内容                     |
+| 3        | footer            | 尾                       |
+| 4        | nav（navigation） | 导航                     |
+| 5        | sidebar           | 侧栏                     |
+| 6        | column            | 栏目                     |
+| 7        | wrapper           | 页面外围控制整体布局宽度 |
+| 8        | left right center | 左右中                   |
+| 9        | loginbar          | 登录条                   |
+| 10       | logo              | 标志                     |
+| 11       | banner            | 广告                     |
+| 12       | main              | 页面主体                 |
+| 13       | hot               | 热点                     |
+| 14       | news              | 新闻                     |
+| 15       | download          | 下载                     |
+| 16       | subnav            | 子导航                   |
+| 17       | menu              | 菜单                     |
+| 18       | submenu           | 子菜单                   |
+| 19       | search            | 搜索                     |
+| 20       | friendlink        | 友情链接                 |
+| 21       | footer            | 页脚                     |
+| 22       | copyright         | 版权                     |
+| 23       | scroll            | 滚动                     |
+| 24       | content           | 内容                     |
+| 25       | tab               | 标签页                   |
+| 26       | list              | 文章列表                 |
+| 27       | msg               | 提示信息                 |
+| 28       | tips              | 小技巧                   |
+| 29       | title             | 栏目标题                 |
+| 30       | join us           | 加入                     |
+| 31       | guide             | 指南                     |
+| 32       | service           | 服务                     |
+| 33       | regsiter          | 注册                     |
+| 34       | status            | 状态                     |
+| 35       | vote              | 投票                     |
+| 36       | partner           | 合作伙伴                 |
 
-### Js基础 day04
+## id的命名
 
-| 常用的日期函数  |                                    |                   |
-| --------------- | ---------------------------------- | ----------------- |
-| getTime         | 取得系统时间                       |                   |
-| getMilliseconds | 取得 Date 对象中的毫秒字段         | ['mɪlɪsek(ə)nd]   |
-| getSeconds      | 返回时间的秒                       | [ˈsekənd]         |
-| getMinutes      | 返回时间的分钟数                   | ['minit]          |
-| getHours        | 返回时间的小时字段                 | [ˈauə]            |
-| getDay          | 返回一周的某一天数字               |                   |
-| getDate         | 返回月份的某一天                   |                   |
-| getMonth        | 取得 Date 对象中表示月份的数字     | [mʌnθ]            |
-| getFullYear     | 返回当前Date对象中的年份值         | [fʊl] [jɪə; jɜː]  |
-| 常用方法        |                                    |                   |
-| split           | 用于把一个字符串分割成字符串数组。 | [splɪt]           |
-| forEach         | 为每一个遍历，循环                 | [i:tʃ]            |
-| map             | 地图，天体图; 类似地图的事物;      | [mæp]             |
-| indexOf         | 查找字符或者子串第一次出现的地方,  | [ˈɪndeks]         |
-| lastIndexOf     | 查找字符或者子串是后一次出现的地方 | [lɑ:st]           |
-| every           | 每个; 每; 所有可能的; 充足的;      | [ˈevri]           |
-| some            | 一些; 某个; 大约; 相当多的;        | 英 [səm] 美 [sʌm] |
+| id的命名 |                   |                          |      |
+| -------- | ----------------- | ------------------------ | ---- |
+| 序号     | 名称              | 英文                     | 中文 |
+| 1        | 页面结构          | container                | 容器 |
+| 2        | header            | 页头                     |      |
+| 3        | content/container | 内容                     |      |
+| 4        | main              | 页面主体                 |      |
+| 5        | footer            | 页尾                     |      |
+| 6        | nav（navigation） | 导航                     |      |
+| 7        | sidebar           | 侧栏                     |      |
+| 8        | column            | 栏目                     |      |
+| 9        | wrapper           | 页面外围控制整体布局宽度 |      |
+| 10       | left right center | 左右中                   |      |
+| 11       | 导航              | nav（navigation）        | 导航 |
+| 12       | mainbav           | 主导航                   |      |
+| 13       | subnav            | 子导航                   |      |
+| 14       | topnav            | 顶导航                   |      |
+| 15       | sidebar           | 边导航                   |      |
+| 16       | leftsidebar       | 左导航                   |      |
+| 17       | rightsidebar      | 右导航                   |      |
+| 18       | menu              | 菜单                     |      |
+| 19       | submenu           | 子菜单                   |      |
+| 20       | title             | 标题:                    |      |
+| 21       | summary           | 摘要                     |      |
+| 22       | 功能              | logo                     | 标志 |
+| 23       | banner            | 广告                     |      |
+| 24       | login             | 登陆                     |      |
+| 25       | loginbar          | 登录条                   |      |
+| 26       | regsiter          | 注册                     |      |
+| 27       | search            | 搜索                     |      |
+| 28       | shop              | 功能区                   |      |
+| 29       | title             | 标题                     |      |
+| 30       | joinus            | 加入                     |      |
+| 31       | status            | 状态                     |      |
+| 32       | btn               | 按钮                     |      |
+| 33       | scroll            | 滚动                     |      |
+| 34       | tab               | 标签页                   |      |
+| 35       | list              | 文章列表                 |      |
+| 36       | msg               | 提示信息                 |      |
+| 37       | current           | 当前的                   |      |
+| 38       | tips              | 小技巧                   |      |
+| 39       | icon              | 图标                     |      |
+| 40       | note              | 注释                     |      |
+| 41       | guild             | 指南                     |      |
+| 42       | service           | 服务                     |      |
+| 43       | hot               | 热点                     |      |
+| 44       | news              | 新闻                     |      |
+| 45       | download          | 下载                     |      |
+| 46       | vote              | 投票                     |      |
+| 47       | partner           | 合作伙伴                 |      |
+| 48       | link              | 友情链接                 |      |
+| 49       | copyright         | 版权                     |      |
 
-### Js基础 day05
+## 弹性布局
 
-| 英文        | 中文介绍                                                     | 音标                                    |
-| ----------- | ------------------------------------------------------------ | --------------------------------------- |
-| BOM         |                                                              |                                         |
-| window      | n. 窗口; 窗，窗户;                                           | 英['wɪndəʊ]美['wɪndoʊ]                  |
-| setTimeout  | 法用于在指定的毫秒数后调用函数或计算表达式                   |                                         |
-| interval    | n. 间隔; 幕间休息; （数学） 区间;                            | 英[ˈɪntəvl]美[ˈɪntərvl                  |
-| setInterval | 设置时间间隔, 按照指定时间周期调用函数或计算表达式, 循环     |                                         |
-| history     | n. 历史，历史学；历史记录；来历                              | 英 ['hɪst(ə)rɪ]  美 [ˈhɪstəri; ˈhɪstri] |
-| 常用方法    |                                                              |                                         |
-| ceil        | vt. 装天花板，装船内格子板;                                  | 英[si:l]美[si:l]                        |
-| location    | n. 定位; 位置，场所; 外景（拍摄地）;                         | 英[ləʊˈkeɪʃn]美[loʊˈkeɪʃn]              |
-| 掌握部分    |                                                              |                                         |
-| path        | n. 小路，路; 路线，路程; 〈比喻〉（人生的）道路; （思想，行为，生活的） 途径; | 英[pɑ:θ]美[pæθ]                         |
-| port        | n. 港口; （事情的） 意义; （计算机与其他设备的） 接口; （船、飞机等的） 左舷; | 英[pɔ:t]美[pɔ:rt]                       |
-| protocol    | n. 礼仪; （外交条约的） 草案; （数据传递的） 协议; 科学实验报告（或计划）; | 英[ˈprəʊtəkɒl]美[ˈproʊtəkɔ:l]           |
-| navigator   | n. 领航员; 航海家，航行者，航海者; （船舶，飞机的） 驾驶员; 一个浏览器的品牌; | 英[ˈnævɪgeɪtə(r)]美[ˈnævɪˌɡetɚ]         |
-| agent       | n. 代理人; 代理商; 特工; 药剂;                               | 英[ˈeɪdʒənt]美[ˈedʒənt]                 |
-| useragent   | 用户代理, 代理程式识别码                                     |                                         |
-| back        | vt. 使后退; 支持; 加背书于; 下赌注于;vi. 后退; 倒退;         | 英[bæk]美[bæk]                          |
-| offset      | vt. 抵消; 补偿; （为了比较的目的而）把…并列（或并置） ; 为（管道等）装支管; | 英[ˈɒfset]美[ˈɔ:fset]                   |
-| step        | n. 步，脚步; 步骤，手段; 步调; 级别;                         | 英[step]美[stɛp]                        |
-| animate     | vt. 使有生气; 驱动; 使栩栩如生地动作; 赋予…以生命;           | 英[ˈænɪmeɪt]美[ˈænəˌmet]                |
-| Extensible  | adj. 可展开的，可扩张的，可延长的;                           | 英[ɪk'stensəbl]美[ɪk'stensəbəl]         |
+| flex 布局父项常见属性                                        |                                            |                                             |               |        |
+| ------------------------------------------------------------ | ------------------------------------------ | ------------------------------------------- | ------------- | ------ |
+| 属性                                                         | 值                                         | 说明                                        | 单词          | 中文   |
+| flex-direction            设置主轴的方向                     | row                                        | 默认值从左到右                              | flexible      | 灵活的 |
+| row-reverse                                                  | 从右到左                                   | direction                                   | 方向          |        |
+| column                                                       | 从上到下                                   | row                                         | 行            |        |
+| column-reverse                                               | 从下到上                                   | reverse                                     | 颠倒          |        |
+| column                                                       | 列                                         |                                             |               |        |
+| justify-content           设置主轴上的子元素排列方式         | flex-start                                 | 默认值 从头部开始 如果主轴是x轴，则从左到右 | justify       | 证明   |
+| flex-end                                                     | 从尾部开始排列                             | content                                     | 内容          |        |
+| center                                                       | 在主轴居中对齐（如果主轴是x轴则 水平居中） | center                                      | 中心          |        |
+| space-around                                                 | 平分剩余空间                               | space                                       | 空间          |        |
+| space-between                                                | 先两边贴边 再平分剩余空间（重要）          | around                                      | 大约，在…周围 |        |
+| between                                                      | 在……之间                                   |                                             |               |        |
+| flex-wrap               设置子元素是否换行                   | nowrap                                     | 默认值，不换行                              | wrap          | 包     |
+| wrap                                                         | 换行                                       |                                             |               |        |
+| align-content            设置侧轴上的子元素的排列方式（多行） | flex-start                                 | 默认值 从上到下                             | align         | 排列   |
+| flex-end                                                     | 从下到上                                   | stretch                                     | 伸展          |        |
+| center                                                       | 挤在一起居中（垂直居中）                   |                                             |               |        |
+| stretch                                                      | 拉伸                                       |                                             |               |        |
+| align-items              设置侧轴上的子元素排列方式（单行）  | flex-start                                 | 默认值在侧轴的头部开始排列                  | item          | 项目   |
+| flex-end                                                     | 在侧轴的尾部开始排列                       |                                             |               |        |
+| center                                                       | 在侧轴中间显示                             |                                             |               |        |
+| space-around                                                 | 子项在侧轴平分剩余空间                     |                                             |               |        |
+| space-between                                                | 子项在侧轴先分布在两头，再平分剩余空间     |                                             |               |        |
+| stretch                                                      | 设置子项元素高度平分父元素高度             |                                             |               |        |
+| flex-flow              flex-direction 和 flex-wrap 属性的复合属性 |                                            | flow                                        | 流动          |        |
+| **flex布局子项常见属性**                                     |                                            |                                             |               |        |
+| 属性                                                         | 值                                         | 说明                                        | 单词          | 中文   |
+| flex 子项目分配剩余空间                                      | number                                     | 默认值为 0                                  |               |        |
+| order 属性定义项目的排列顺序                                 | number                                     | 默认值为 0                                  | order         | 排序   |
+| align-self             控制子项自己在侧轴上的排列方式        | align-items                                | 默认值为 auto                               | self          | 自己   |
 
-### Js基础 day06
+## rem适配布局
 
-| 英文             | 中文介绍                                                    | 音标                           |
-| ---------------- | ----------------------------------------------------------- | ------------------------------ |
-| js API           |                                                             |                                |
-| client           | n. 顾客; 当事人; 诉讼委托人; [计算机] 客户端;               |                                |
-| resize           | vt. 调整大小                                                | 英[ˈklaɪənt]美[ˈklaɪənt]       |
-| offsetHeight     | 网页内容实际高度                                            | 英[ˌri:ˈsaɪz]美[,ri'saɪz]      |
-| math             | n. 数学                                                     |                                |
-| getComputedStyle | 可以获取当前元素所有最终使用的CSS属性值                     | 英[mæθ]美[mæθ]                 |
-| 常用部分         |                                                             |                                |
-| compute          | vt. 计算；估算；用计算机计算                                | 英 [kəm'pjuːt]  美 [kəm'pjʊt]  |
-| computed         | v. 计算，估算                                               | [kəm'pju:tid]                  |
-| computer         | n. （电子） 计算机，电脑;                                   | 英[kəmˈpju:tə(r)]美[kəmˈpjutɚ] |
-| floor            | n. 地板，地面；楼层；基底；议员席                           | 英[flɔ:(r)]美[flɔr, flor]      |
-| mode             | n. 模式；方式；风格；时尚                                   | 英[məʊd]美[moʊd]               |
-| compatMode       | 兼容模式；document.compatMode(判断当前浏览器采用的渲染方式) | [kəm‚pæt]                      |
-| responsive       | adj.应答的，响应的; 反应灵敏的; 共鸣的; 易反应的;           | 英[rɪˈspɒnsɪv]美[rɪˈspɑ:nsɪv]  |
-| tablet           | 药片,小块 .碑，匾; 便笺簿,平板电脑                          | 英[ˈtæblɪt]美[ˈtæblət]         |
-| wrap             | n. 膝毯，披肩，围巾，围脖，头巾，罩衫，外套，大衣; 包装纸;  | 英[ræp]美[ræp]                 |
-| slide            | n. 滑动；幻灯片；滑梯；雪崩                                 | 英[slaɪd]美[slaɪd]             |
-| assign           | vt. 分配；指派；[计][数] 赋值                               | 英[əˈsaɪn]美[əˈsaɪn]           |
-| insert           | vt. 插入; 嵌入; （在文章中） 添加; 加插;                    | 英[ɪnˈsɜ:t]美[ɪnˈsɜ:rt]        |
-| before           | prep. 在…之前; 先于，优于; 当着…的面; 与其…;                | 英[bɪˈfɔ:(r)]美[bɪˈfɔr,-ˈfor]  |
-## webAPI
+|             |      |          | 单词  | 中文 |
+| ----------- | ---- | -------- | ----- | ---- |
+| rem         |      | root em  | root  | 根   |
+| Media Query |      | 媒体查询 | media | 媒体 |
+|             |      |          | query | 询问 |
+| 媒体查询    |      |          |       |      |
 
-### webAPI day01
+```css
+@media mediatype and|not|only(media feature){ css-code;}
+```
 
-| 英文                | 中文介绍                                                     | 音标                           |
-| ------------------- | ------------------------------------------------------------ | ------------------------------ |
-| js API              |                                                              |                                |
-| odd                 | 奇数；怪人；奇特的事物                                       | [ɒd]                           |
-| even                | [数] 偶数的；平坦的；相等的                                  | ['iːv(ə)n]                     |
-| cancelBubble        | 可以阻止事件冒泡                                             |                                |
-| getSelection        | 方法，获取选中的内容                                         | [sɪ'lɛkʃən]                    |
-| useCapture          | 捕获时间监听器的属性(捕获；战利品，俘虏)                     | ['kæptʃɚ]                      |
-| addEventListener    | 增加事件处理程序操作                                         | ['lɪsənɚ]                      |
-| removeEventListener | 删除事件处理程序操作                                         | 英 [ɪ'vent]                    |
-| stopPropagation     | 方法，停止事件传播（增殖, 广传, 繁殖）                       | [,prɑpə'geʃən]                 |
-| 熟悉部分            |                                                              |                                |
-| feed                | vt. 喂养; 满足（欲望等）; 向…提供; 供…作食物;                | 英[fi:d]美[fid]                |
-| vertical            | adj. 垂直的，竖立的; [解] 头顶的; 顶点的; [植] 纵长的，直上的; | 英[ˈvɜ:tɪkl]美[ˈvɜ:rtɪkl]      |
-| programming         | n. 设计，规划；编制程序，[计] 程序编制                       | 英[ˈprəʊgræmɪŋ]美[ˈproʊgræmɪŋ] |
-| form                | n. 表格; 方式; 形状，形式; 外形;                             | 英[fɔ:m]美[fɔ:rm]              |
-| mask                | 假面具; 遮蔽物; 伪装; 防护面具                               | 英 [mɑːsk] 美 [mæsk]           |
-| show                | 显示, 展览, 表现                                             | [ʃəʊ]                          |
-| bubble              | 泡沫, 幻想，冒泡                                             | [ 'bʌbl]                       |
-| cancel              | 取消; 删去; 相互抵销                                         | ['kænsl]                       |
-| createRange         | 方法，创建Range对象                                          | [reɪndʒ]                       |
-| empty               | 空的；无意义的；无知的；徒劳的                               | [ˈɛmptɪ]                       |
-| event               | 事件, 竞赛, 结果                                             | 英 [ɪ'vent]                    |
-| application         | 适用，应用，运用; 申请，请求                                 | [ˌæplɪˈkeʃən]                  |
-| equal(eq)           | 平等的；相等的；胜任的                                       | ['i:kwəl]                      |
+| 属性                   | 值                  | 解释说明                           | 单词    | 中文   |
+| ---------------------- | ------------------- | ---------------------------------- | ------- | ------ |
+| mediatype   查询类型   | all                 | 用于所有设备                       | print   | 打印   |
+|                        | print               | 用于打印机和打印预览               | screen  | 屏幕   |
+|                        | screen              | 用于电脑屏幕，平板电脑，智能手机等 |         |        |
+| media feature 媒体特性 | width               | 定义输出设备中页面可见区域的宽度   | feature | 特色   |
+|                        | min-width           | 定义输出设备中页面最小可见区域宽度 | minimal | 最小的 |
+|                        | max-width           | 定义输出设备中页面最大可见区域宽度 | maximal | 最大的 |
+| Less                   | Leaner Style Sheets |                                    | leaner  | 简洁的 |
 
-### webAPI day02
+## JS
 
-| 英文                  | 中文介绍                                                     | 音标                               |
-| --------------------- | ------------------------------------------------------------ | ---------------------------------- |
-| 常用方法              |                                                              |                                    |
-| append                | 选元素的结尾（仍然在内部）插入指定内容。                     |                                    |
-| appendTo              | 在被选元素的结尾（仍然在内部）插入指定内容。                 |                                    |
-| slideDown             | 是让隐藏的元素显示                                           |                                    |
-| slideUp               | 用于隐藏所有匹配的元素,并带有向上滑动的过渡动画效果          |                                    |
-| toggle                | 切换元素的可见状态。                                         |                                    |
-| siblings              | n. 兄弟姊妹；民族成员                                        | 英 ['sɪblɪŋ]                       |
-| 常用浏览器            |                                                              |                                    |
-| Firefox               | 火狐浏览器;                                                  | [faifɔ:ks]                         |
-| Chrome                | 谷歌浏览器; 铬，铬合金;                                      | [krəʊm]                            |
-| Internet              | 因特网                                                       | ['ɪntənet]                         |
-| explorer              | 探险家; 勘探者; 探测器; [医]探针;                            | 英 [ek'splɔːrə(r)] [ɪkˈsplɔ:rə(r)] |
-| IE(Internet explorer) | 网页浏览器                                                   |                                    |
-| Safari（苹果）        | 旅行；狩猎远征；旅行队                                       | [sə'fɑːrɪ]                         |
-| Opera（欧朋）         | 歌剧；歌剧院；歌剧团                                         | ['ɒp(ə)rə]                         |
-| 了解部分              |                                                              |                                    |
-| selector              | 选择器；挑选者                                               | [sə'lɛktɚ]                         |
-| find                  | 发现；认为；感到；获得                                       | [faɪnd]                            |
-| compress              | 压缩，压紧；精简                                             | [kəm'prɛs]                         |
-| uncompress            | 解压，解压缩                                                 | [ʌn'kəmpres]                       |
-| easing                | v. （使） 减轻，舒缓( ease的现在分词 ); 使安心; 降低; 使舒服; | 英['i:zɪŋ]美['i:zɪŋ]               |
-| swing                 | adj. 旋转的；悬挂的；强节奏爵士音乐的                        | 英[swɪŋ]美[swɪŋ]                   |
-| clearQueue            | 停止队列中所有仍未执行的函数                                 |                                    |
-| jump                  | vt. 跳跃；使跳跃；跳过；突升                                 | 英[dʒʌmp]美[dʒʌmp]                 |
+### javascript
 
-### webAPI day03
+| Javascript 单词 | JavaScript                   |                                                              |
+| --------------- | ---------------------------- | ------------------------------------------------------------ |
+| 序号            | 英文                         | 中文说明                                                     |
+| 1               | script                       | 脚本                                                         |
+| 2               | DOM（Document Object Model） | 文档对象模型                                                 |
+| 3               | BOM                          | 浏览器对象模型                                               |
+| 4               | alert                        | 浏览器弹出警示框                                             |
+| 5               | console.log                  | 浏览器控制台打印输出信息                                     |
+| 6               | prompt                       | 浏览器弹出输入框，用户可以输入                               |
+| 7               | var (variable)               | 声明变量                                                     |
+| 8               | Number                       | 数字型                                                       |
+| 9               | Boolean                      | 布尔型，(true、false，等价于1和0)                            |
+| 10              | String                       | 字符串                                                       |
+| 11              | Undefined                    | 未定义的                                                     |
+| 12              | Null                         | 空值                                                         |
+| 13              | Infinity                     | 无穷大                                                       |
+| 14              | NaN (Not a number)           | 非数值                                                       |
+| 15              | length                       | 长度                                                         |
+| 16              | parseInt(parse integer)      | 将字符串转换成整数                                           |
+| 17              | parseFloat                   | 将字符串转换成浮点数                                         |
+| 18              | operator                     | 运算符                                                       |
+| 19              | if                           | 如果                                                         |
+| 20              | if else                      | 如果其他                                                     |
+| 21              | switch                       | 开关 / 转换                                                  |
+| 22              | case                         | 小例子 / 选项                                                |
+| 23              | for循环                      | 用于把某些代码循环若干次                                     |
+| 24              | while循环                    | 在条件表达式为真的前提下，循环执行指定的一段代码，直到表达式不为真时结束循环 |
+| 25              | do-while循环                 | 该循环会先执行一次代码块，然后对条件表达式进行判断，如果条件为真，就会重复执行循环体，否则退出循环。 |
+| 26              | continue                     | 用于立即跳出本次循环，继续下一次循环                         |
+| 27              | break                        | 用于立即跳出整个循环 （循环结束）                            |
+| 28              | function                     | 声明函数,必须小写                                            |
+| 29              | return                       | 返回值                                                       |
+| 30              | new Object                   | 创建对象                                                     |
 
-| 英文                  | 中文介绍                                                     | 音标                             |
-| --------------------- | ------------------------------------------------------------ | -------------------------------- |
-| 事件                  |                                                              |                                  |
-| event.data            | 当当前正在执行的处理程序绑定时，一个可选的数据对象传递给一个事件方法。 | ['deɪtə]                         |
-| event.keyCode         | 属性返回onkeypress事件触发的键的值的字符代码                 | [kəʊd]                           |
-| event.which           | 返回指定事件上哪个键盘键或鼠标按钮被按下                     | [wɪtʃ]                           |
-| event.stopPropagation | 阻止事件冒泡到父元素，阻止任何父事件处理程序被执行           | [,prɒpə'ɡeɪʃən]                  |
-| event.preventDefault  | 阻止元素发生默认的行为                                       | [prɪ'vent] [dɪ'fɔːlt; 'diːfɔːlt] |
-| bind                  | vt. 绑；约束；装订；包扎；凝固                               | 英[baɪnd]美[baɪnd]               |
-| unbind                | vt. 解开，解放;                                              | 英['ʌn'baɪnd]美[ʌnˈbaɪnd]        |
-| 熟悉部分              |                                                              |                                  |
-| strict                | 严格的                                                       | [strɪkt]                         |
-| loose                 | 宽松的                                                       | [luːs]                           |
-| transitional          | 变迁的；过渡期的                                             | [træn'zɪʃənl]                    |
-| section               | 区块                                                         | ['sɛkʃən]                        |
-| scope                 | 范围；余地；视野；眼界；导弹射程                             | 英 [skəʊp]  美 [skop]            |
-| autoplay              | 自动播放;                                                    | [ɔ :təp'leɪ]                     |
-| loop                  | 圈，环 ; 回路; 弯曲部分;                                     | [lu:p]                           |
+### 通用词汇 (计算机专业通用英语词汇)
 
-### webAPI day04
+|      | 通用词汇 (计算机专业通用英语词汇) |                                |                                              |                                                              |
+| ---- | --------------------------------- | ------------------------------ | -------------------------------------------- | ------------------------------------------------------------ |
+| 序号 | 英文                              | 音标                           | 中文                                         | 说明                                                         |
+| 1    | option                            | ['ɒpʃn]                        | n. 选择权；可选物                            | (HTML标签option,常用于select标签之内)                        |
+| 2    | delta                             | ['deltə]                       | n. (河流的)三角洲;希腊语第四个字母 (希腊字符 | Δ，δ数学中常常用来表示增量，js相关, 鼠标滚轮增量 wheelDelta) |
+| 3    | readyState                        | ['redi][steɪt]                 | n. 就绪状态，[计]就绪状态字                  | (表示已经就绪的标识变量)                                     |
+| 4    | ready                             | ['redi]                        | adj. 准备好的；乐意的；情愿的                | (document.readystatechange事件，AJAX操作时会用)              |
+| 5    | readonly                          | [reɪ'dɒnlɪ]                    | adj. 只读的                                  | (input type="text"的属性)                                    |
+| 6    | mousewheel                        | [ maʊs ][wiːl]                 | n. 鼠标滚轮                                  |                                                              |
+| 7    | wheel                             | [wiːl]                         | n.方向盘; 车轮                               |                                                              |
+| 8    | propagation                       | [ˌprɒpə'ɡeɪʃn]                 | n. 传播；增值                                | (event propagation,事件传播，如子元素上的click事件会触发父元素上绑定的click事件处理函数) |
+| 9    | prevent                           | [prɪ'vent]                     | n. 预防；阻止；防止                          | (相关函数:event.preventDefault() 阻止事件默认操作)           |
+| 10   | stop                              | [stɒp]                         | v. 阻止，停止                                | (相关函数 event.stopPropagation() 防止事件冒泡等)            |
+| 11   | handler                           | ['hændlə(r)]                   | n. 处理程序                                  |                                                              |
+| 12   | attach                            | [ə'tætʃ]                       | v. 附上；挤上；使附属                        | ( element.attachEvent() IE8兼容的绑定事件的方法 )            |
+| 13   | timer                             | ['taɪmə(r)]                    | n.计时器；定时器                             |                                                              |
+| 14   | interval                          | ['ɪntəvl]                      | n. 间隔                                      | (相关函数: setInterval())                                    |
+| 15   | time interval                     | [ taɪm][ interval]             | 时间间隔                                     | (相关函数: setTimeout())                                     |
+| 16   | timeout                           | ['taɪmaʊt]                     | n.超时；过期                                 |                                                              |
+| 17   | notation                          | [nəʊ'teɪʃn]                    | n.记号；                                     | 表示法(相关:JSON)                                            |
+| 18   | argument                          | ['ɑːɡjumənt]                   | n.参数                                       |                                                              |
+| 19   | parameter                         | [pə'ræmɪtə(r)]                 | n.参数                                       | (如：function funcName( parameter 列表 ){} )                 |
+| 20   | protocol                          | ['prəʊtəkɒl]                   | n.协议                                       | (如：window.location.protocol)                               |
+| 21   | host                              | [həʊst]                        | n.主机                                       | (如：window.location.hostname )                              |
+| 22   | port                              | [pɔːt]                         | n端口                                        | (如：window.location.port )                                  |
+| 23   | path                              | [pɑːθ]                         | n.路径                                       | (如：window.location.pathname)                               |
+| 24   | search                            | [sɜːtʃ]                        | n,v.搜索；查询；                             | 查询字符串(url问号后面的部分, window.location.search )       |
+| 25   | context                           | ['kɒntekst]                    | n. 上下文；环境；背景                        |                                                              |
+| 26   | menu                              | ['menjuː]                      | n.菜单                                       |                                                              |
+| 27   | context menu                      | ['kɒnteks][ 'menju]            | 上下文菜单                                   | (单击右键弹出的菜单，鼠标事件Element.oncontextmenu)          |
+| 28   | synchronous                       | ['sɪŋkrənəs]                   | adj. 同时的；同步的(一种程序执行机制)        |                                                              |
+| 29   | asynchronous                      | [eɪ'sɪŋkrənəs]                 | adj. 异步的(一种程序执行机制)                |                                                              |
+| 30   | broswer                           | ['braʊzə(r)]                   | n. 浏览器                                    |                                                              |
+| 31   | click                             | [klɪk]                         | n.点击                                       | (元素鼠标事件属性: element.onclick())                        |
+| 32   | regular                           | ['reɡjələ(r)]                  | adj. 有规律的；正规的；规则的                | ;经常的                                                      |
+| 32   | regular                           | ['reɡjələ(r)]                  | adj. 有规律的；正规的；规则的                | ;经常的                                                      |
+| 33   | regula                            | r expression                   | 正则表达式                                   |                                                              |
+| 34   | pattern                           | ['pætn]                        | n. 模式                                      |                                                              |
+| 35   | result                            | [rɪ'zʌlt]                      | n.结果；成绩                                 | ( result set: MySQL中执行select语句后返回的结果集 )          |
+| 36   | line feed                         | [ laɪn][ fiːd ]                | n. 换行 (LF)                                 |                                                              |
+| 37   | carrigage                         | ['kærɪdʒ]                      | n. 四轮马车; 托架; (打字机托架)              |                                                              |
+| 38   | return                            | [rɪ'tɜːn]                      | n.归还；返回 ( 用于函数 )                    |                                                              |
+| 39   | carriage return                   | [ 'kærɪdʒ ][rɪ'tɜːn]           | 回车                                         |                                                              |
+| 40   | type                              | [taɪp]                         | n. 类型                                      | (如: typeof() )                                              |
+| 41   | delete                            | [dɪ'liːt]                      | vt. 删除                                     | (操作符：用于删除某个变量)                                   |
+| 42   | integer                           | ['ɪntɪdʒə(r)]                  | n. 整数                                      |                                                              |
+| 43   | parse                             | [pɑːz]                         | n. 语法分析；解析                            |                                                              |
+| 44   | statement                         | ['steɪtmənt]                   | n.陈述；声明；[计]语句                       |                                                              |
+| 45   | condition                         | [kən'dɪʃn]                     | n.条件；情况                                 |                                                              |
+| 46   | conditional                       | [kən'dɪʃənl]                   | adj.有条件的 n. [语法]条件句                 |                                                              |
+| 47   | conditional logic                 | [ kən'dɪʃ(ə)n(ə)l ][ 'lɒdʒɪk ] | 条件逻辑                                     |                                                              |
+| 48   | escape                            | [ɪ'skeɪp]                      | n. 逃跑；[计]退出键ESC                       |                                                              |
+| 49   | character                         | ['kærəktə(r)]                  | n. 字符; 个性; 品质                          |                                                              |
+| 50   | escape character                  | [ɪˈskep ][ 'kærɪktɚ ]          | 转义符                                       | (如’\n’, ‘\r’, ‘\t’等等)                                     |
+| 51   | keyword                           | ['kiːwɜːd]                     | n. 关键字                                    | (如’var’, ‘if else’, ‘while’)                                |
+| 52   | encapsulation                     | [inˌkæpsjuˈleiʃə               | n. 封装                                      | (将代码片段组织成函数或类以供复用)；包装；密封               |
+| 53   | looping                           | [luːpɪŋ]                       | n.迭代，循环                                 | (while, do..while, for)                                      |
+| 54   | logic                             | ['lɒdʒɪk]                      | n. 逻辑；逻辑学；条理性                      |                                                              |
+| 55   | looping logic                     | ['lu:piŋ]['lɒdʒɪk]             | 循环逻辑                                     |                                                              |
+| 56   | call                              | [kɔːl]                         | vt. 打电话；访问；呼叫；调用(函数)           |                                                              |
+| 57   | invoke                            | [ɪn'vəʊk]                      | vt.援引; [计]调用(函数)                      |                                                              |
+| 58   | build-in                          | ['bɪld'ɪn]                     | adj.内嵌的，内建的                           | (如js内置函数 Math.random(), String.substr() )               |
+| 59   | locale                            | [ləʊ'kɑːl]                     | n.场所; 区域设置; 语言环境                   | (如 String1.localeCompare(string2))                          |
+| 60   | compare                           | [kəm'peə(r)]                   | v. 比较；对比 n. 比较；对照                  |                                                              |
+| 61   | pop                               | [pɒp]                          | v. 发出(砰的响声)；取出                      | ( 数组操作: Array.pop() ) n. [计] 出栈                       |
+| 62   | push                              | [pʊʃ]                          | v. 推；按；挤 n.[计]入栈                     | ( 数组操作:Array.push() )                                    |
+| 63   | location                          | [ləʊ'keɪʃn]                    | n.位置；定点；地点                           |                                                              |
+| 64   | node                              | [nəʊd]                         | n. 节；结点 ;[计]节点                        |                                                              |
+| 65   | expression                        | [ɪk'spreʃn]                    | n.表达；表达式                               |                                                              |
+| 66   | operator                          | ['ɒpəreɪtə(r)]                 | n.操作符                                     |                                                              |
+| 67   | operand                           | ['ɒpərænd]                     | n.操作数                                     |                                                              |
+| 68   | assignment                        | [eɪ'saɪnmənt]                  | n.赋值；分配；指派                           |                                                              |
+| 69   | identifer                         | [aɪ'dentɪfaɪə(r)]              | n.标识符                                     |                                                              |
+| 70   | class                             | [klɑːs]                        | n.类                                         |                                                              |
+| 71   | instance                          | ['ɪnstəns]                     | n.实例                                       | （相关函数:instanceof()）                                    |
+| 72   | method                            | ['meθəd]                       | n. 方法(从类的角度描述function)              |                                                              |
+| 73   | matrix                            | ['meɪtrɪks]                    | n.矩阵 (一种二维数组的表现形式)              |                                                              |
 
-| 英文             | 中文介绍                                              | 音标                                  |
-| ---------------- | ----------------------------------------------------- | ------------------------------------- |
-| HTML 属性        |                                                       |                                       |
-| autocomplete     | 自动完成功能                                          | [ˈɔ:təʊ] [kəmˈpli:t]                  |
-| autofocus        | 自动获取焦点                                          | [ˈfəʊkəs]                             |
-| required         | 必须的，<美>（学科）必修的; 要求                      | [rɪ'kwaɪəd]                           |
-| js               |                                                       |                                       |
-| querySelector    | 用于从DOM选取元素，参数须是符合 css selector 的字符串 | [ˈkwɪəri] [sɪˈlektə(r)]               |
-| querySelectorAll | 用于从DOM选取元素，参数须是符合 css selector 的字符串 |                                       |
-| classList        | 优等生名单；班级名册                                  |                                       |
-| search           | [sɜːtʃ]                                               | 搜寻；调查；探求                      |
-| replace          | [rɪˈpleɪs]                                            | 替换; 代替; 把…放回原位; （用…）替换; |
-| split            | [splɪt]                                               | 分裂; 分开; 裂缝; 劈叉;               |
-| sort             | [sɔ:t]                                                | 分类，类别; 品质，本性; 方法; 一群;   |
-| indexOf          | [ˈɪndeks]                                             | 索引                                  |
-| lastIndexOf      | [lɑ:st]                                               | 末尾; 最后; 上个; 鞋楦（做鞋的模型）; |
-| 熟悉部分         |                                                       |                                       |
-| datalist         | 数据列表                                              | [ˈdeɪtə]                              |
-| dataset          | 资料组 数据集                                         | ['deɪtəset]                           |
-| output           | 产量; 输出; 作品; [计]输出信号;                       | [ˈaʊtpʊt]                             |
-| meter            | 计量器; 计量仪;                                       | [ˈmi:tə(r)]                           |
-| security         | 安全；保证；证券；抵押品                              | [sɪ'kjʊərətɪ] [sə'kjʊrəti]            |
-| python           | 巨蛇，大蟒;                                           | [ˈpaɪθən]                             |
+### 数据类型/系统值
 
-### webAPI day05
+|      | 数据类型/系统值 |               |                         |      |
+| ---- | --------------- | ------------- | ----------------------- | ---- |
+| 序号 | 英文            | 音标          | 中文                    | 说明 |
+| 1    | number          | ['nʌmbə(r)]   | n.数字,号码;数值类型    |      |
+| 2    | string          | [strɪŋ]       | n.一串；字符串          |      |
+| 3    | object          | ['ɒbdʒɪkt]    | n. 物体；目标；对象     |      |
+| 4    | date            | [deɪt]        | n.日期                  |      |
+| 5    | boolean         | ['buːliən]    | n.布尔值                |      |
+| 6    | array           | [ə'reɪ]       | n. 数组                 |      |
+| 7    | function        | ['fʌŋkʃn]     | n.功能；函数            |      |
+| 8    | defind          | [dɪ'faɪn]     | v. 规定；定义           |      |
+| 9    | undefined       | [ˌʌndɪ'faɪnd] | adj. 未定义的；不明确的 |      |
+| 10   | NaN = Not       | a Number      | 不是数字                |      |
+| 11   | Infinity        | [ɪn'fɪnəti]   | n. 无限；无穷大         |      |
+| 12   | FALSE           | [fɔːls]       | adj.假的， n. 布尔真    |      |
+| 13   | TRUE            | [truː]        | adj. 真的 n.布尔假值    |      |
 
-| 英文                 | 中文介绍     | 音标                                                         |
-| -------------------- | ------------ | ------------------------------------------------------------ |
-| 数组ＡＰＩ和内置对象 |              |                                                              |
-| push                 | [pʊʃ]        | 推动，增加; 对…施加压力，逼迫; 按; 说服;                     |
-| pop                  | [pɒp]        | 爆炸；砰地;                                                  |
-| shift                | [ʃɪft]       | 改变; 去掉; 摆脱掉; 换挡;                                    |
-| unshift              | [ʌn'ʃɪft]    | 松开打字机或键盘的字型变换键;方法将元素插入到一个数组的开始部分 |
-| reverse              | [rɪ'vɜːs]    | 颠倒；倒转                                                   |
-| concat               | [kɒnkæt]     | 合并多个数组；合并多个字符串                                 |
-| slice                | [slaɪs]      | 切成片; 切下; 划分;                                          |
-| splice               | [splaɪs]     | 拼接；接合；使结婚                                           |
-| trim                 | [trɪm]       | 修剪; 整理; 装饰;                                            |
-| global               | [ˈgləʊbl]    | 全面的，整体的，全局的;                                      |
-| local                | [ˈləʊkl]     | 地方的; 当地的，本地的; 局部的; 褊狭的;                      |
-| Locale               | [ləʊ'kɑːl]   | 场所，现场                                                   |
-| to(Locale)UpperCase  | ['ʌpə'keɪs]  | 大写字母                                                     |
-| to(Locale)LowerCase  | [,ləʊə'keɪs] | 小写字母；小写字体                                           |
-## Jquery
+### js相关单词
 
-### Jquery day01
+| js相关单词 | js相关英语        |                |                                                              |                                          |
+| ---------- | ----------------- | -------------- | ------------------------------------------------------------ | ---------------------------------------- |
+| 序号       | 英文              | 音标           | 中文                                                         | 说明                                     |
+| 1          | var = variable    | ['veəriəbl]    | n. 变量；易变的东西                                          |                                          |
+| 2          | caller            | ['kɔːlə(r)]    | n. 调用者(函数中: arguments.caller);打电话的人；来访者；呼叫者 |                                          |
+| 3          | callee            | [kɔː'liː]      | n. 被调用者(函数中: arguments.callee, 用于递归匿名函数);被呼叫者；被召唤者 |                                          |
+| 4          | previous          | ['priːviəs]    | adj. 以前的；先于；前面的                                    | (如 ElementNode.previousSibling())       |
+| 5          | next              | [nekst]        | adj. 下一个; 其次的                                          | (如 ElementNode.nextSibling())           |
+| 6          | child             | [tʃaɪld]       | n. 小孩；子女                                                | (如 parentNode.firstChild属性)           |
+| 7          | parent            | ['peərənt]     | n. 父母                                                      | (如 ElementNode.pareteNode属性)          |
+| 8          | sibling           | ['sɪblɪŋ]      | n. 兄弟姐妹                                                  | (如 ElementNode.nextSibling())           |
+| 9          | repalce           | [rɪ'pleɪs]     | v. 取代；替换                                                | (如. parentNode.replaceChild())          |
+| 10         | collection        | [kə'lekʃn]     | n.收集；聚集；收藏品；某某集合                               |                                          |
+| 11         | remove            | [rɪ'muːv]      | v. 移除，消除                                                | (如: parentNode.removeChild(childNode))  |
+| 12         | append            | [ə'pend]       | vt. 附加；添加                                               | (如:parentNode.appendChild(childNode))   |
+| 13         | app = application | [ˌæplɪ'keɪʃn]  | n.应用;申请;应用程序                                         | (如navigator.appName)                    |
+| 14         | version           | ['vɜːʃn]       | n. 译本；版本                                                | (如:navigator.appVersion)                |
+| 15         | sort              | [sɔːt]         | n.种类 v.处理；分类；[计]排序                                |                                          |
+| 16         | concatenate       | [kɒn'kætɪneɪt] | v.连结；连锁                                                 | (数组函数Array.concat()的前六个字符)     |
+| 17         | radix             | ['reɪdɪks]     | n. [数]基数                                                  | (JS中进制转换时：”523”.toString(radix) ) |
+| 18         | create            | [kri'eɪt]      | n. 创造; 造成                                                | (如：document.createElement())           |
+| 19         | value             | ['væljuː]      | n. 价值；价格；数值                                          | (如 element.value )                      |
+| 20         | inner             | ['ɪnə(r)]      | adj. 内部的，内心的，里面的                                  | (如 element.innerHTML)                   |
+| 21         | content           | ['kɒntent]     | n. 内容，目录                                                | (如element.textContent() )               |
+| 22         | attribute         | ['ætrɪbjuːt]   | n. 属性 vt. 把…归于                                          | ( 同义: property, properties )           |
+| 23         | client            | ['klaɪənt]     | n. 客户，委托人                                              | (如 document.body.clientHeight)          |
+| 24         | event             | [ɪ'vent]       | n. 大事；事件; 项目                                          | (如mouse event: 鼠标事件)                |
+| 25         | offset            | ['ɒfset]       | n. [计]偏移量                                                | (如 window.pageXOffset)                  |
+| 26         | mouse             | [maʊs]         | n. 鼠标；老鼠；胆小如鼠的人                                  |                                          |
+| 27         | load              | [ləʊd]         | v. 装载; [计]装入 n.负荷; 重担; 装载量                       | (如 window.onload())                     |
+| 28         | press             | [pres]         | v. 按，压                                                    | (如 element.onkeypress )                 |
+| 29         | down              | [daʊn]         | adv. 向下                                                    | (如 element.onmousedown )                |
+| 30         | up                | [ʌp]           | adv. 向上; 起来                                              | (如 element.onmouseup)                   |
+| 31         | move              | [muːv]         | n. 移动                                                      | (如 element.onmousemove)                 |
+| 32         | out               | [aʊt]          | adv. 出；向外，完                                            | (如 element.onmouseout)                  |
+| 33         | over              | ['əʊvə(r)]     | prep.在..的上方 adv.穿过                                     | (如 element.onmouseover)                 |
+| 34         | double            | ['dʌbl]        | adj. 双重的;成倍的;两倍的 n. 两倍；[计]双精度浮点类型        | (如 element.ondblclick )                 |
+| 35         | select            | [sɪ'lekt]      | v. 选择，挑选                                                | (如：element.onselect)                   |
+| 36         | change            | [tʃeɪndʒ]      | n.变化；零钱 v.改变                                          | (如 element.onchange)                    |
+| 37         | focus             | ['fəʊkəs]      | n. 焦点;焦距;中心 v.(使)集中;聚集                            | (如element.onfocus)                      |
+| 38         | blur              | [blɜː(r) ]     | v.弄脏；使..模糊 n.污点;模糊 [计]失去焦点                    | (如element.onblur)                       |
+| 39         | submit            | [səb'mɪt]      | vt.提交; 递交; 使服从; 使屈服                                | (如 formElement.onsubmit)                |
+| 40         | reset             | [ˌriː'set]     | n. 重新设定；重新组合                                        | (如 formElement.onreset )                |
 
-| 英文           | 中文介绍                   | 音标                                                         |
-| -------------- | -------------------------- | ------------------------------------------------------------ |
-| Jquery常用方法 |                            |                                                              |
-| toggle         | 英 ['tɒg(ə)l] 美[ˈtɑ:gl]   | v. 切换;n. 棒形纽扣; 套索扣; 转换键; 切换键;                 |
-| show           | 英[ʃəʊ]美[ʃoʊ]             | vt. 显示；说明；演出；展出                                   |
-| hide           | 英[haɪd美[haɪd]            | vt. 隐藏; 躲避，隐匿，躲藏; 遮蔽，覆盖;                      |
-| slide          | 英[slaɪd]美[slaɪd]         | vt. 滑动；使滑动；悄悄地迅速放置                             |
-| slideDown      |                            | 滑入                                                         |
-| slideUp        |                            | 滑出                                                         |
-| fade           | 英[feɪd]美[fed]            | vi. 褪去，失去光泽; 逐渐消逝; 凋谢，衰老;                    |
-| fadeIn         |                            | 淡入                                                         |
-| fadeOut        |                            | 淡出                                                         |
-| easing         | 英['i:zɪŋ]美['i:zɪŋ]       | v. （使） 减轻，舒缓( inease的现在分词 ); 使安心; 降低; 使舒服; |
-| swing          | 英[swɪŋ]美[swɪŋ]           | adj. 旋转的；悬挂的；强节奏爵士音乐的                        |
-| linear         | 英[ˈlɪniə(r)]美[ˈlɪniər]   | adj. 直线的，线形的; 长度的; <数>一次的，线性的              |
-| stop           | 英[stɒp]美[stɑ:p]          | vi. 停止；中止；逗留；被塞住                                 |
-| queue          | 英[kju:]美[kju]            | n. 队列；长队；辫子                                          |
-| clearQueue     |                            | 清空队列，清除队列                                           |
-| jump           | 英[dʒʌmp]美[dʒʌmp]         | vt. 跳跃；使跳跃；跳过；突升                                 |
-| jumpToEnd      |                            |                                                              |
-| append         | 英[əˈpend]美[əˈpɛnd]       | vt. 附加; 添加; 贴上; 签（名）;                              |
-| prepend        | 英[pri:'pend]美[pri:'pend] | vt. 预先考虑，预先计划，预谋;                                |
+### BOM
 
-### Jquery day02
+| BOM  |           |                 |                                                              |
+| ---- | --------- | --------------- | ------------------------------------------------------------ |
+| 序号 | 英文      | 音标            | 中文                                                         |
+| 1    | window    | ['wɪndəʊ]       | n.窗户;窗口，视窗                                            |
+| 2    | document  | ['dɒkjumənt]    | n.文档                                                       |
+| 3    | location  | [ləʊ'keɪʃn]     | n.位置，定位，地点                                           |
+| 4    | history   | ['hɪstri]       | n.历史                                                       |
+| 5    | navigator | ['nævɪɡeɪtə(r)] | n.航海家；领航仪(为纪念网景早期的浏览器Navigator，而以之为名的浏览器对象) |
+| 6    | screen    | [skriːn]        | n. 屏幕                                                      |
 
-| 英文                  | 中文介绍                         | 音标                                                         |
-| --------------------- | -------------------------------- | ------------------------------------------------------------ |
-| attribute             | 英 [ə'trɪbjuːt]  美 [ə'trɪbjut]  | n. 属性；特质                                                |
-| selector              | 英 [sɪ'lektə]  美 [sə'lɛktɚ      | n. 选择者，选择器;                                           |
-| prop（property）      | [ˈprɒpəti]                       | 特性，属性; 财产，地产; [戏]道具; 所有权;                    |
-| bind                  | 英[baɪnd]美[baɪnd]               | vt. 绑；约束；装订；包扎；凝固                               |
-| unbind                | 英['ʌn'baɪnd]美[ʌnˈbaɪnd]        | vt. 解开，解放;                                              |
-| delegate              | 英[ˈdelɪgeit]美[ˈdɛlɪˌgit]       | vt. 委派代表; 授权给; [法律] 债务转移;n. 代表，代表团成员;   |
-| undelegate            |                                  |                                                              |
-| handler               | 英[ˈhændlə(r)]美[ˈhændlɚ]        | n. 处理者，管理者; （动物） 驯化者; [自] （信息） 处理机; 拳击教练; |
-| trigger               | 英[ˈtrɪgə(r)]美[ˈtrɪɡɚ]          | vt. 引发，引起；触发                                         |
-| event对象             |                                  |                                                              |
-| event.data            | ['deɪtə]                         | 数据（datum的复数）；资料                                    |
-| event.keyCode         | [kəʊd]                           | 代码，密码；编码；法典                                       |
-| event.which           | [wɪtʃ]                           | 哪/那一个；哪/那一些                                         |
-| event.stopPropagation | [,prɒpə'ɡeɪʃən]                  | 传播；繁殖；增殖                                             |
-| event.preventDefault  | [prɪ'vent] [dɪ'fɔːlt; 'diːfɔːlt] | 预防，防止；阻止   / 违约；缺席；缺乏；系统默认值            |
-## canvas
+### 缩略词
 
-### canvas day01
+| 缩略词 |      |                                       |                     |
+| ------ | ---- | ------------------------------------- | ------------------- |
+| 序号   | 英文 | 全称                                  | 中文                |
+| 1      | DOM  | Document Object Model                 | 文档对象模型        |
+| 2      | BOM  | Browser Object Model                  | 浏览器对象模型      |
+| 3      | JSON | JavaScript Object Notation javascript | 对象表示法          |
+| 4      | AJAX | Asynchronous Javascript And XML       | 异步javascript和XML |
+| 5      | NaN  | Not a Number                          | 不是数字            |
 
-| 英文        | 音标                         | 中文介绍                                 |
-| ----------- | ---------------------------- | ---------------------------------------- |
-| 常用API部分 |                              |                                          |
-| canvas      | 英[ˈkænvəs]美[ˈkænvəs]       | n. 帆布; 油画（布）                      |
-| context     | 英[ˈkɒntekst]美[ˈkɑ:ntekst]  | n. 环境；上下文；来龙去脉                |
-| getContext  |                              |                                          |
-| moveTo      |                              |                                          |
-| lineTo      |                              |                                          |
-| stroke      | 英[strəʊk]美[stroʊk]         | vt. 划掉; 轻抚; 轻触; 敲击;              |
-| strokeStyle |                              | 设置或返回用于笔触的颜色、渐变或模式     |
-| lineWidth   |                              | 设置或返回当前的线条宽度                 |
-| fill        | 英[fɪl]美[fɪl]               | vt. （使） 充满，（使）装满;             |
-| fillStyle   |                              | 设置或返回用于填充绘画的颜色、渐变或模式 |
-| rectangle   | 英[ˈrektæŋgl]美[ˈrɛkˌtæŋgəl] | n. [数] 长方形，矩形;                    |
-| strokeRect  |                              | 绘制矩形（无填充）                       |
-| fillRect    |                              | 绘制“被填充”的矩形                       |
-| clearRect   |                              | 在给定的矩形内清除指定的像素             |
-| square      | 英[skweə(r)]美[skwer]        | n. 平方; 广场; 正方形; 方格;             |
+### 常用函数
 
-### canvas day02
-
-| 英文         | 音标                     | 中文介绍                                   |
-| ------------ | ------------------------ | ------------------------------------------ |
-| 常用API部分  |                          |                                            |
-| angle        | 英 ['æŋg(ə)l] 美 ['æŋgl] | n. 角度，角，方面                          |
-| arc          | 英[ɑ:k]美[ɑ:rk]          | n. 综合症状; 弧（度）; 天穹; 电弧，弧光。; |
-| path         | 英[pɑ:θ]美[pæθ]          | n. 小路，路; 路线，路程;                   |
-| closePath    |                          | 创建从当前点回到起始点的路径               |
-| beginPath    |                          | 起始一条路径，或重置当前路径               |
-| fillText     |                          | 在画布上绘制“被填充的”文本--实心文本       |
-| strokeText   |                          | 在画布上绘制文本（无填充）--空心文本       |
-| textAlign    |                          | 设置水平对齐方式                           |
-| textBaseline |                          | 设置垂直对齐方式                           |
-
-## nodeJs
-
-| 英文             | 音标            | 中文介绍               |
-| ---------------- | --------------- | ---------------------- |
-| node             |                 |                        |
-| require          | 英 [rɪˈkwaɪə(r) | 需要;要求;想要;命令    |
-| writeFile        | 写文件          |                        |
-| readFile         | 读文件          |                        |
-| path             | [pɑ:θ]          | 路径                   |
-| watchFile        |                 |                        |
-| Install          | [ɪnˈstɔ:l]      | 安装;安顿，安置        |
-| module           | 英 [ˈmɒdju:l]   | 模块;组件;             |
-| exports          | ['ekspɔ:rts]    | 出口                   |
-| Browser - Server |                 |                        |
-| server           | [ˈsɜ:və(r)]     | 服务器 ;侍者;上菜用具; |
-| createServer     | [kriˈeɪt]       | 创建服务器             |
-| variable(var)    | [ˈveəriəbl]     | 变化的，可变的         |
-| let              | [let]           | 让                     |
-| const            |                 | 常数，不变的           |
-
-## Vue
-
-| 英文       | 音标             | 中文介绍                                                  |
-| ---------- | ---------------- | --------------------------------------------------------- |
-| router     | 英 [ˈru:tə(r)]   | 刳刨者;刳刨工具;刳刨机;路由器                             |
-| template   | 英 [ˈtempleɪt]   | 模板;样板;型板                                            |
-| render     | 英 [ˈrendə(r)]   | 给予;使成为;递交;表达                                     |
-| exports    | 英 ['ekspɔ:rts]  | 出口，输出                                                |
-| module     | 英 [ˈmɒdju:l]    | 模块;组件;                                                |
-| resolve    | 英 [rɪˈzɒlv]     | 使消释;使分解，表决;分解                                  |
-| require    | 英 [rɪˈkwaɪə(r)] | 需要;要求;想要;                                           |
-| browser    | 英 [ˈbraʊzə(r)]  | 浏览程序;浏览器                                           |
-| webpack    |                  |                                                           |
-| replace    | 英 [rɪˈpleɪs]    | 代替;替换;                                                |
-| methods    | 英 ['meθədz]     | 方法;方法                                                 |
-| component  | 英 [kəmˈpəʊnənt] | 成分;组分;零件;[数]要素                                   |
-| mounted    | 英 [ˈmaʊntɪd]    | 登上，骑上( mount的过去式和过去分词);增加，上升;上演;准备 |
-| filters    |                  | 过滤( filter的名词复数 );滤光器                           |
-| directives |                  | 正式的指示，官方的指示，指令( directive的名词复数 )       |
-| extend     | 英 [ɪkˈstend]    | 延伸;扩大;推广                                            |
-| model      | 英 [ˈmɒdl]       | 模型;模式;模特儿;典型                                     |
-| bind       |                  | 捆绑;约束;装订;（用长布条）缠绕                           |
-| directive  | 英 [dəˈrektɪv]   | 指令;<美>命令，训令，指令;方针                            |
+| 常用函数 |           |            |                 |                      |
+| -------- | --------- | ---------- | --------------- | -------------------- |
+| 序号     | 英文      | 音标       | 中文            | 说明                 |
+| 1        | alert()   | [ə'lɜːt]   | n. 警戒；警报   |                      |
+| 2        | confirm() | [kən'fɜːm] | v. 证实；确认   |                      |
+| 3        | write()   | [raɪt]     | v.写；书写      | ( document.write() ) |
+| 4        | prompt()  | [prɒmpt]   | n. 提示；提示符 | (window.prompt())    |
