@@ -249,7 +249,7 @@
 | 30       | join us           | 加入                     |
 | 31       | guide             | 指南                     |
 | 32       | service           | 服务                     |
-| 33       | regsiter          | 注册                     |
+| 33       | register          | 注册                     |
 | 34       | status            | 状态                     |
 | 35       | vote              | 投票                     |
 | 36       | partner           | 合作伙伴                 |
