@@ -517,7 +517,7 @@
 | 6          | child             | [tʃaɪld]       | n. 小孩；子女                                                | (如 parentNode.firstChild属性)           |
 | 7          | parent            | ['peərənt]     | n. 父母                                                      | (如 ElementNode.pareteNode属性)          |
 | 8          | sibling           | ['sɪblɪŋ]      | n. 兄弟姐妹                                                  | (如 ElementNode.nextSibling())           |
-| 9          | repalce           | [rɪ'pleɪs]     | v. 取代；替换                                                | (如. parentNode.replaceChild())          |
+| 9          | replace           | [rɪ'pleɪs]     | v. 取代；替换                                                | (如. parentNode.replaceChild())          |
 | 10         | collection        | [kə'lekʃn]     | n.收集；聚集；收藏品；某某集合                               |                                          |
 | 11         | remove            | [rɪ'muːv]      | v. 移除，消除                                                | (如: parentNode.removeChild(childNode))  |
 | 12         | append            | [ə'pend]       | vt. 附加；添加                                               | (如:parentNode.appendChild(childNode))   |
